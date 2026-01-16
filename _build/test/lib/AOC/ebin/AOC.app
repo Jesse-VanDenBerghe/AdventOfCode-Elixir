@@ -1,1 +1,0 @@
-{application,'AOC',[{modules,['Elixir.InputFetcher','Elixir.Y2025D1']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger,httpoison]},{description,"AOC"},{registered,[]},{vsn,"0.1.0"}]}.

@@ -1,1 +1,0 @@
-{application,adventofcode,[{modules,['Elixir.Adventofcode']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger]},{description,"adventofcode"},{registered,[]},{vsn,"0.1.0"}]}.

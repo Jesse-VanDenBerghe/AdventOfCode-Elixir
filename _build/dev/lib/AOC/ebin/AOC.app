@@ -1,1 +1,0 @@
-{application,'AOC',[{modules,['Elixir.AOC.Runner','Elixir.AOC.Solution','Elixir.InputFetcher','Elixir.Mix.Tasks.Aoc','Elixir.Mix.Tasks.Aoc.New','Elixir.Y2025.D01','Elixir.Y2025.D02']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger,httpoison]},{description,"AOC"},{registered,[]},{vsn,"0.1.0"}]}.
