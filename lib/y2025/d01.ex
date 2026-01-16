@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/1
+
 defmodule Y2025.D01 do
   @behaviour AOC.Solution
 

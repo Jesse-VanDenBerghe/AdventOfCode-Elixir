@@ -56,7 +56,7 @@ defmodule Mix.Tasks.Aoc.New do
     if File.exists?(solution_path) do
       IO.puts("⚠️  Solution file already exists: #{solution_path}")
     else
-      File.write!(solution_path, solution_template(module_name))
+      File.write!(solution_path, solution_template(module_name, year, day))
       IO.puts("✓ Created #{solution_path}")
     end
 
@@ -83,8 +83,10 @@ defmodule Mix.Tasks.Aoc.New do
     IO.puts("  3. Run with: mix aoc #{year} #{day} --test")
   end
 
-  defp solution_template(module_name) do
+  defp solution_template(module_name, year, day) do
     """
+    # https://adventofcode.com/#{year}/day/#{day}
+
     defmodule #{module_name} do
       @behaviour AOC.Solution
 

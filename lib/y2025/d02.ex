@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/2
+
 defmodule Y2025.D02 do
   @behaviour AOC.Solution
 
@@ -18,6 +20,7 @@ defmodule Y2025.D02 do
   defp parse(input) do
     input
     |> String.split("\n", trim: true)
+
     # TODO: Add parsing logic
   end
 
